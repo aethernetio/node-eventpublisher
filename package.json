@@ -1,6 +1,6 @@
 {
   "name": "node-eventpublisher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Modern Server Sent Events for node.js + ES2015",
   "main": "dist-server/index.js",
   "scripts": {
