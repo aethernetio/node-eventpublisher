@@ -5,7 +5,9 @@
   "main": "dist-server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "gulp build"
+    "prepublish": "gulp build",
+    "version": "gulp build && git add -A dist-server",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
